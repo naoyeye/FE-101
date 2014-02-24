@@ -1,4 +1,4 @@
-/* 
+/*
 * @Author: hanjiyun
 * @Date:   2014-02-22 11:47:22
 * @Last Modified by:   hanjiyun
@@ -6,17 +6,8 @@
 */
 
 $(function(){
-    // if($(window).width() > 1220 ){
-    //     $('.ui.sidebar').sidebar('show');
+    $('.ui.sidebar').sidebar('show');
 
-    //     $('article').click(function(){
-    //         $('.ui.sidebar').sidebar('toggle');
-    //     })
-    // } else {
-    //      $('#switch_btn').click(function(){
-    //         $('.ui.sidebar').sidebar('toggle');
-    //     })
-    // }
         $('#switch_btn').click(function(){
             // $('.ui.sidebar').sidebar('toggle');
             $('body').toggleClass('pushed')
